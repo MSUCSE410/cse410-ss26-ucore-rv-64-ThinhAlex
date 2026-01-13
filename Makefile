@@ -72,7 +72,7 @@ setclassroom: setclassroom1 setclassroom2 setclassroom3 setclassroom4 setclassro
 
 setclassroom1:
 	git checkout ch1
-	git clone https://github.com/cse410/uCore-RV-64-conf.git cr-scripts
+	git clone https://github.com/CSE410-Project/uCore-RV-64-conf.git cr-scripts
 	#git checkout master -- scripts/classroom.yml
 	#git checkout master -- scripts/autograding0.json
 	mkdir -p .github/workflows
@@ -88,7 +88,7 @@ setclassroom1:
 
 setclassroom2:
 	git checkout ch2
-	git clone https://github.com/cse410/uCore-RV-64-conf.git cr-scripts
+	git clone https://github.com/CSE410-Project/uCore-RV-64-conf.git cr-scripts
 	mkdir -p .github/workflows
 	mkdir -p .github/classroom
 	touch .github/.keep
@@ -100,7 +100,7 @@ setclassroom2:
 
 setclassroom3:
 	git checkout ch3
-	git clone https://github.com/cse410/uCore-RV-64-conf.git cr-scripts
+	git clone https://github.com/CSE410-Project/uCore-RV-64-conf.git cr-scripts
 	mkdir -p .github/workflows
 	mkdir -p .github/classroom
 	touch .github/.keep
@@ -112,7 +112,7 @@ setclassroom3:
 	
 setclassroom4:
 	git checkout ch4
-	git clone https://github.com/cse410/uCore-RV-64-conf.git cr-scripts
+	git clone https://github.com/CSE410-Project/uCore-RV-64-conf.git cr-scripts
 	mkdir -p .github/workflows
 	mkdir -p .github/classroom
 	touch .github/.keep
@@ -124,7 +124,7 @@ setclassroom4:
 
 setclassroom5:
 	git checkout ch5
-	git clone https://github.com/cse410/uCore-RV-64-conf.git cr-scripts
+	git clone https://github.com/CSE410-Project/uCore-RV-64-conf.git cr-scripts
 	mkdir -p .github/workflows
 	mkdir -p .github/classroom
 	touch .github/.keep
@@ -136,7 +136,7 @@ setclassroom5:
 
 setclassroom6:
 	git checkout ch6
-	git clone https://github.com/cse410/uCore-RV-64-conf.git cr-scripts
+	git clone https://github.com/CSE410-Project/uCore-RV-64-conf.git cr-scripts
 	mkdir -p .github/workflows
 	mkdir -p .github/classroom
 	touch .github/.keep
@@ -148,7 +148,7 @@ setclassroom6:
 
 setclassroom7:
 	git checkout ch7
-	git clone https://github.com/cse410/uCore-RV-64-conf.git cr-scripts
+	git clone https://github.com/CSE410-Project/uCore-RV-64-conf.git cr-scripts
 	mkdir -p .github/workflows
 	mkdir -p .github/classroom
 	touch .github/.keep
@@ -160,7 +160,7 @@ setclassroom7:
 
 setclassroom8:
 	git checkout ch8
-	git clone https://github.com/cse410/uCore-RV-64-conf.git cr-scripts
+	git clone https://github.com/CSE410-Project/uCore-RV-64-conf.git cr-scripts
 	mkdir -p .github/workflows
 	mkdir -p .github/classroom
 	touch .github/.keep
