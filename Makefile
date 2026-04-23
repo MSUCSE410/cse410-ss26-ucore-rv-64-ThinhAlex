@@ -27,7 +27,7 @@ ifeq (,$(findstring initproc.o,$(OBJS)))
 	AS_OBJS += $(BUILDDIR)/$K/initproc.o
 endif
 
-INIT_PROC ?= usershell
+INIT_PROC ?= ch8_usertest
 
 $(K)/initproc.o: $K/initproc.S
 $(K)/initproc.S: scripts/initproc.py .FORCE
