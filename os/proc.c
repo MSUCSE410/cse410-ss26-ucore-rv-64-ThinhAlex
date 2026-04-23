@@ -143,6 +143,18 @@ found:
 	p->next_semaphore_id = 0;
 	p->next_condvar_id = 0;
 	// LAB5: (1) you may initialize your new proc variables here
+    p->is_deadlock_detection_on = 0;
+    for (int i = 0; i < LOCK_POOL_SIZE; i++) {
+        p->mutex_available[i] = 0;
+        p->sem_available[i] = 0;
+        for (int j = 0; j < NTHREAD; j++) {
+            p->mutex_allocated[j][i] = 0;
+            p->mutex_requested[j][i] = 0;
+            p->sem_allocated[j][i] = 0;
+            p->sem_requested[j][i] = 0;
+        }
+    }
+    
 	return p;
 }
 
